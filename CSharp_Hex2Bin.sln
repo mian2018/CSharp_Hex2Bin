@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Hex2Bin", "CSharp_Hex2Bin.csproj", "{F1AFC4DD-933F-4D35-8ED7-55068BA003E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1AFC4DD-933F-4D35-8ED7-55068BA003E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AFC4DD-933F-4D35-8ED7-55068BA003E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AFC4DD-933F-4D35-8ED7-55068BA003E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AFC4DD-933F-4D35-8ED7-55068BA003E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {166402A8-E06E-4F1E-AEC5-5FC2DCE74F7D}
+	EndGlobalSection
+EndGlobal
