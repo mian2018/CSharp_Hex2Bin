@@ -66,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +80,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="清除.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="打开.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="历史记录.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="另存为.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="生成.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="填充.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="校验.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
