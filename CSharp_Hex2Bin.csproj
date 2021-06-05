@@ -71,6 +71,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\CSharp_Hex2Bin.exe.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -106,6 +107,8 @@
     <None Include="校验.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\CSharp_Hex2Bin.exe" />
+    <Content Include="bin\Debug\CSharp_Hex2Bin.pdb" />
     <Content Include="image.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
