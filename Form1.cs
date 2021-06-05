@@ -24,14 +24,6 @@ namespace CSharp_Hex2Bin
         /// 保存加载到内存的hex文件信息
         /// </summary>
         List<Section> sections = new List<Section>();
-
-        private void dataGridView_DragDrop(object sender, DragEventArgs e)
-        {
-            e.Effect = DragDropEffects.None;
-
-            string[] str = (string[])e.Data.GetData(DataFormats.FileDrop);
-            OpenHexFile(str);
-        }
         /// <summary>
         /// 加hex文件信息加载到表格中
         /// </summary>
@@ -106,7 +98,14 @@ namespace CSharp_Hex2Bin
             txbLog.AppendText(log);
             SaveFilePath(path);
         }
-        
+
+        private void dataGridView_DragDrop(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.None;
+
+            string[] str = (string[])e.Data.GetData(DataFormats.FileDrop);
+            OpenHexFile(str);
+        }
 
         private void dataGridView_DragEnter(object sender, DragEventArgs e)
         {
